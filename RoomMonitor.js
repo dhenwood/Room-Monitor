@@ -15,6 +15,7 @@ xapi.status.get('SystemUnit BroadcastName').then ((value) => {
 
 
 function queryServer(){
+  // If you intend to run the Python code on your own server, the following line needs to be updated to point to your server
   const url = "http://anzbots.cisco.com:5000?username=" + username + "&password=" + password
   xapi.command('HttpClient Get', { 'Url':url, 'AllowInsecureHTTPS': 'True'}).then(
     (result) => {
