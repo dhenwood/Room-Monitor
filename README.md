@@ -28,4 +28,4 @@ The following diagram illistrates the interactions of these two scripts, along w
 6. The macro assesses what is the expected number of chairs, etc and if it does not equal what the device is configured for, it posts it to a Webex Space.
 
 ## Setup
-The **Remote Monitoring** license key is **required** to be installed on the endpoint. The Remote Monitoring feature allows an administrator to monitor a room from the endpoint's web interface by getting snapshots from the camera sources connected to the endpoint.
+The **Remote Monitoring** license key is **required** to be installed on the endpoint. The Remote Monitoring feature allows an administrator to monitor a room from the endpoint's web interface by getting snapshots from the camera sources connected to the endpoint. To purchase this license, the top level part code required is "**L-TP-RM**", after which you select the appropriate item for the respective device it will run on.
