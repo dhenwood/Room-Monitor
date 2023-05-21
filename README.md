@@ -21,8 +21,8 @@ The following diagram illistrates the interactions of these two scripts, along w
 ![alt text](https://github.com/dhenwood/Room-Monitor/blob/main/FlowDiagram.png?raw=true)
 
 1. The macro running on the video device sends a POST message containing the username and password of the device.
-2. Using the username and password (from 1), the Python script requests a SessionId and ClientId from the device. The device returns this in a heaader.
-3. Using the SessionId and ClientId, the Python script requests the image (base64 encoded).
+2. Using the username and password (from 1), the Python script requests a specific cookie from the device. The device returns this in a header.
+3. Using the cookie, the Python script requests the image (base64 encoded).
 4. The Python script sends the image to an object detection engine (in this case Google Vision), where it processess it and returns a JSON response with all objects it has detected.
 5. The Python script returns (from step 1) to the video device a summary of items to the video device.
 6. The macro assesses what is the expected number of chairs, etc and if it does not equal what the device is configured for, it posts it to a Webex Space.
