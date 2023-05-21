@@ -9,6 +9,8 @@
 ## Introduction
 The following code demonstrates the intelligent sensors inside Cisco video devices to detect if a meeting room has been left in a state that is not desirable (coffee cups left, missing chairs, whiteboards with corporate sensitive information). 
 
+A short video of this in action can be found here; https://app.vidcast.io/share/bd8feafe-01b9-43ca-b26f-e1e37a35b6b3
+
 ## Background
 It is made up of two scripts; a macro running on the video device and a python script. Whilst I originally had hoped to run all of this from a single macro; there were some limitations that prevented this - notably, the video device has a limit in the body of any POST message (and the size of the image exceeded this).
 
