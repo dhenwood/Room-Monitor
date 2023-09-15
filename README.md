@@ -29,3 +29,9 @@ The following diagram illistrates the interactions of these two scripts, along w
 
 ## Setup
 The **Remote Monitoring** license key is **required** to be installed on the endpoint. The Remote Monitoring feature allows an administrator to monitor a room from the endpoint's web interface by getting snapshots from the camera sources connected to the endpoint. To purchase this license, the top level part code required is "**L-TP-RM**", after which you select the appropriate item for the respective device it will run on.
+
+As mentioned above, the Python script needs to run on a server that has direct access to the Cisco video device. It needs to be able to initiate HTTP POST/GET requests to the device.
+
+Once the Macro is installed on the Cisco video device, lines 3, 4, 5 and 6 will need to be updated to reflect the local username and password for the device along with the Webex Bearer token and Space ID.
+
+For the Python script, you will need to create an account on Google Vision. Once done, you will be able to obtain a token and update line 40 to include the key. Alternate object detection services or Python libraries could equally be used instead.
