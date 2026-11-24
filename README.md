@@ -10,6 +10,8 @@
 ## Introduction
 The following code demonstrates the intelligent sensors inside Cisco video devices to detect if a meeting room has been left in a state that is not desirable (coffee cups left, missing chairs, whiteboards with corporate sensitive information). 
 
+![alt text](https://www.employees.org/~dhenwood/Images/ChairCount.png)
+
 ## Video
 A short video of this in action can be found on [Vidcast](https://app.vidcast.io/share/bd8feafe-01b9-43ca-b26f-e1e37a35b6b3)
 
